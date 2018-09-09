@@ -1,0 +1,295 @@
+@font-face{
+    font-family: "Aniron";
+    src: url("content/fnt/anirm___.ttf") format("truetype");
+  }
+
+@font-face{
+    font-family: "Party Business";
+    src: url("content/fnt/partybusiness.ttf") format("truetype");
+}
+
+@font-face{
+    font-family: "Tengwar Annatar";
+    src: url("content/fnt/tngani.ttf") format("truetype");
+}
+
+body{
+    background-color: #f5f2eb;
+}
+
+h2{
+    font-family: "Aniron";
+    font-size: 16pt;
+    padding-bottom: 1rem;
+}
+
+h2 span.special_char{
+    font-family: "Tengwar Annatar";
+    font-size: 22pt;
+    color: #fe661d;
+}
+
+h3{
+    font-family: "Aniron";
+    font-size: 16pt;
+}
+
+a{
+    color:#000000;
+}
+
+a:hover{
+    color:#000000;
+}
+
+.aniron{
+    font-family: "Aniron";
+}
+
+.party_business{
+    font-family: "Party Business";
+}
+
+.navbar{
+    background-color: #fe661d;
+    font-family: "Aniron"
+}
+
+.navbar-nav{
+    padding-left: 12%;
+}
+
+.fellows{
+    padding-bottom: 2rem;
+}
+
+.nav-item.nav-link{
+    color: #64635f;
+}
+
+.nav-item.nav-link.active{
+    color: #fe661d;
+    background-color: #f5f2eb;
+    border-bottom: 5px solid #fe661d;
+}
+
+.orange{
+    background-color: #fe661d;
+}
+
+.orangec{
+    color: #fe661d;
+}
+
+.dark{
+    background-color: #1b1b1b;
+    color: #f5f2eb;
+}
+
+span.marge{
+    padding-left: 120px;
+}
+
+.carousel{
+    font-family: "Party Business";
+    padding-bottom: 1rem;
+}
+
+.carousel-item
+{
+max-height: 30rem;
+}
+
+.carousel-caption{
+    font-size: 25pt;
+    padding-bottom: 12%;
+}
+
+.carousel-caption h5{
+    font-size: 45pt;
+}
+
+.card.dark{
+    border-radius: 0;
+}
+
+.card-img-top
+{
+opacity:0.75;
+max-height:22rem;
+}
+
+.card-img-top.gimli{
+    opacity:0.25;
+}
+
+.card-img-top:hover{
+    opacity:1;
+}
+
+.card-title{
+    font-size:22pt;
+}
+
+figure{
+    position:relative;
+}
+
+figure:hover{
+    opacity: 1;
+}
+
+figcaption .reward{
+opacity:0.90;
+background-color: white;
+color: #000000;
+font-size:28px;
+text-align:center;
+position:absolute;
+top:7%;
+left:5%;
+right:5%;
+border-radius:12px;
+}
+
+figcaption .reward .gold
+{
+    color: #fe661d;
+}
+
+figcaption .dead{
+color: #fe661d;
+font-size: 55px;
+text-align:center;
+position:absolute;
+top:5%;
+left:15%;
+right:20%;
+}
+
+figcaption .character_name{
+color:white;
+font-size: 55px;
+text-align:center;
+position:absolute;
+top:50%;
+left:20%;
+right:20%;
+}
+
+figcaption .barre{
+    font-size: 40pt;
+    color: #fe661d;
+    position: absolute;
+    top: 45%;
+    left: 27%;
+    right: 20%;
+}
+
+figure:hover .reward{
+    transition:all 1s;
+    opacity:0;
+}
+
+figure:hover .character_name
+{
+color:white;
+font-size:32px;
+text-align:center;
+position:absolute;
+top:75%;
+}
+
+figure:hover .barre{
+    display: none;
+}
+
+hr.my-4{
+    background-color: #fe661d;
+    height: 4px;
+    width: 30rem;
+}
+
+.captured{
+    padding-top:0rem;
+    background-color: #1b1b1b;
+    border-radius: 0rem;
+    color: #ffffff;
+}
+
+.jumbotron{
+    background-color: #1b1b1b;
+    color: #ffffff;
+    padding-bottom: 0rem;
+    padding-top: 0rem;
+    border-radius: 0rem;
+}
+
+
+.hunter{
+    background-color: #f5f2eb;
+}
+
+.btn-primary.captured{
+    background-color: #ffffff;
+    color: #fe661d;
+    border-radius: 0rem;
+    font-size: 18pt;
+}
+
+.mt-0{
+    font-size: 4rem;
+}
+
+.card.ring{
+    border-radius: 0rem;
+    border-bottom-color: #fe661d;
+}
+
+.card-body.ring{
+    background-color: #f5f2eb;
+    color: #1b1b1b;
+    font-size: 22pt;
+}
+
+.ring .table{
+    font-size: 16pt;
+}
+
+.join{
+    font-size: 20pt;
+}
+
+.col-md-7.join{
+    padding-top: 10%;
+    font-size: 16pt;
+}
+
+.btn-primary.join{
+    background-color: #000000;
+    color: #fe661d;
+    border-radius: 0rem;
+    font-size: 16pt;
+}
+
+.contact_us{
+    padding-bottom: 3rem;
+}
+
+.form-group{
+    padding-bottom: 1rem;
+}
+
+footer
+{
+    background-color: #fe661d;
+    font-family: "Aniron";
+    padding-top: 0rem;
+}
+
+.list-group-item
+{
+color: rgb(220,220,220);
+background-color:#fe661d;
+border: none;
+}
