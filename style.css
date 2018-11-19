@@ -17,6 +17,105 @@ body{
     background-color: #f5f2eb;
 }
 
+div.orange_ring {
+    border: 10px solid orange;
+    border-radius: 100%;
+    box-shadow: inset 2px 4px 8px orange, 2px 4px 8px #ffa604;
+    width: 75px;
+    height: 75px;
+    padding: 10px;
+    display: inline-block;
+    vertical-align: middle;
+  }
+  
+  p.inline_block {
+    font-family: "Aniron";
+    display: inline-block;
+  }
+  
+  div.yellow_ring {
+    border: 15px solid #fdcf13;
+    border-radius: 100%;
+    box-shadow: inset 4px 8px 16px #fdcf13, 4px 8px 16px #fdcf14;
+    width: 150px;
+    height: 150px;
+    padding: 10px;
+    vertical-align: middle;
+    display: inline-block;
+  }
+  
+  div.black_ring1 {
+    border: 10px solid #333333;
+    border-radius: 100%;
+    box-shadow: inset 2px 4px 16px #333333, 2px 4px 16px #343434;
+    width: 30px;
+    height: 30px;
+    padding: 10px;
+    vertical-align: middle;
+    display: inline-block;
+    margin-right: -20px;
+  }
+  
+  div.black_ring2 {
+    border: 10px solid #333333;
+    border-radius: 100%;
+    box-shadow: inset 2px 4px 16px #333333, 2px 4px 16px #343434;
+    width: 60px;
+    height: 60px;
+    padding: 10px;
+    vertical-align: middle;
+    display: inline-block;
+    margin-right: -40px;
+  }
+  
+  div.black_ring3 {
+    border: 10px solid #333333;
+    border-radius: 100%;
+    box-shadow: inset 2px 4px 16px #333333, 2px 4px 16px #343434;
+    width: 90px;
+    height: 90px;
+    padding: 10px;
+    vertical-align: middle;
+    display: inline-block;
+    margin-right: -60px;
+  }
+  
+  div.black_ring4 {
+    border: 10px solid #333333;
+    border-radius: 100%;
+    box-shadow: inset 2px 4px 16px #333333, 2px 4px 16px #343434;
+    width: 120px;
+    height: 120px;
+    padding: 10px;
+    vertical-align: middle;
+    display: inline-block;
+    margin-right: -80px;
+  }
+  
+  div.black_ring5 {
+    border: 10px solid #333333;
+    border-radius: 100%;
+    box-shadow: inset 2px 4px 16px #333333, 2px 4px 16px #343434;
+    width: 150px;
+    height: 150px;
+    padding: 10px;
+    vertical-align: middle;
+    display: inline-block;
+    margin-right: -100px;
+  }
+  
+  div.black_ring6 {
+    border: 10px solid #333333;
+    border-radius: 100%;
+    box-shadow: inset 2px 4px 16px #333333, 2px 4px 16px #343434;
+    width: 180px;
+    height: 180px;
+    padding: 10px;
+    vertical-align: middle;
+    display: inline-block;
+    margin-right: -120px;
+  }
+
 h2{
     font-family: "Aniron";
     font-size: 16pt;

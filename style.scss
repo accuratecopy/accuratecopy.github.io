@@ -1,0 +1,33 @@
+@mixin ring ($x, $y, $blur, $color, $ringSize, $ringBorder, $ringBorderRadius, $lighten) {
+    border: $ringBorder $color;
+    border-radius: $ringBorderRadius;
+    box-shadow : inset $x $y $blur $color, $x $y $blur lighten($color, $lighten);
+    width : $ringSize;
+    height : $ringSize;
+    padding : 10px;
+}
+
+div.orange_ring {
+@include ring(2px, 4px, 8px, orange, 75px, 10px solid, 100%, 0.8);
+display: inline-block;
+vertical-align: middle;
+}
+
+p.inline_block{
+display: inline-block;
+}
+
+div.yellow_ring {
+@include ring(4px, 8px, 16px, #fdcf13, 150px, 15px solid, 100%, 0.2);
+vertical-align: middle;
+display: inline-block;
+}
+
+@for $i from 1 through 6 {
+div.black_ring#{$i} {
+@include ring(2px, 4px, 16px, #333333, $i*30px, 10px solid, 100%, 0.2);
+vertical-align: middle;
+display: inline-block;
+margin-right: -$i*20px;
+}
+}
